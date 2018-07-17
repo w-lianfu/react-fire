@@ -1,6 +1,8 @@
 // @flow
 import React from 'react';
 
+import Btn from '@/common/styled';
+
 type Props = {
   name: String,
   creatorDate: String,
@@ -28,7 +30,7 @@ class FooterComp extends React.Component<Props, State> {
         <li>公司名称: {name}</li>
         <li>成立日期: {creatorDate}</li>
         <li>{this.state.count}</li>
-        <li><button onClick={this.onIncrement.bind(this)}>Increment</button></li>
+        <li><Btn onClick={this.onIncrement.bind(this)}>Increment</Btn></li>
       </ul>
     )
   }

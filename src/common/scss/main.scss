@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input, button, textarea, select {
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+input:active, button:active, textarea:active, select:focus {
+  border-style: none;
+}

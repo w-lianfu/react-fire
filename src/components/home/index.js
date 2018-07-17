@@ -16,6 +16,7 @@ class Home extends React.Component<{}, {}> {
       <div>
         <h3>Home Page...!!!</h3>
         <h3>{store.num}</h3>
+        <p><i className="material-icons">local_airport</i></p>
         <Link to="/about">About Page</Link>
         <hr />
         <FooterComp name="中通快递" creatorDate="2012-05-08" />
