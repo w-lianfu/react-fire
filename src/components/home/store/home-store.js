@@ -1,3 +1,4 @@
+// @flow
 import { observable } from 'mobx';
 
 class HomeStore {

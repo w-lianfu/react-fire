@@ -4,12 +4,12 @@ import React from 'react';
 import Btn from '@/common/styled';
 
 type Props = {
-  name: String,
-  creatorDate: String,
+  name: string,
+  creatorDate: string,
 }
 
 type State = {
-  count: Number,
+  count: number,
 }
 
 class FooterComp extends React.Component<Props, State> {
